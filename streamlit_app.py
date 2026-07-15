@@ -4,10 +4,10 @@ import numpy as np
 import pandas as pd
 
 # 1. Cấu hình trang (Page Configuration)
-st.set_page_config(page_title="RWS Explorer", layout="wide")
+st.set_page_config(page_title="Calculator", layout="wide")
 
 # 2. Tiêu đề (Header)
-st.header("Reduced Web Section explorer (7575 models)")
+st.header("steel-pipe-calculator TEST")
 st.caption("Complementary thesis GUI for FE database interrogation, RWS geometry screening, backbone response, and column-face demand.")
 st.markdown("---")
 
