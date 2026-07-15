@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
+<head>
     <meta charset="UTF-8">
-    <title>Máy tính ống thép</title>
-    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
-    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
-    <style>
-      body { 
-        font-family: Arial, sans-serif; 
-        text-align: center; 
-        margin-top: 50px; 
-        background-color: #1e1e1e; 
-        color: white; 
-      }
-    </style>
-  </head>
-  <body>
-    <h3>Kết quả chạy code Python:</h3>
-    
-    <script type="py">
-        print("🎉 Chúc mừng! Dòng chữ này thực sự được in ra bằng Python!")
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Website Của Tôi</h1>
+        <nav>
+            <a href="index.html">Trang Chủ</a>
+            <a href="admin.html">Trang Admin</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Bài viết mới nhất</h2>
+        <div id="post-container">
+            <!-- Bài viết sẽ được JavaScript nạp vào đây -->
+        </div>
+    </main>
+    <script src="app.js"></script>
+    <script>
+        // Gọi hàm tải bài viết ngay khi mở trang
+        loadPosts();
     </script>
-    
-  </body>
+</body>
 </html>
