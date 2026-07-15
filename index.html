@@ -2,10 +2,10 @@
 <html lang="vi">
   <head>
     <meta charset="UTF-8">
-    <title>Web Python</title>
-    <!-- Khai báo thư viện PyScript -->
-    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
-    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+    <title>Máy tính ống thép</title>
+    <!-- Cập nhật thư viện PyScript phiên bản mới nhất -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
     <style>
       body { 
         font-family: Arial, sans-serif; 
@@ -19,10 +19,11 @@
   <body>
     <h3>Kết quả chạy code Python:</h3>
     
-    <!-- Code Python bắt buộc phải nằm trong thẻ py-script -->
-    <py-script>
-print("Dòng chữ này được in ra bằng Python!")
-    </py-script>
+    <!-- Cú pháp mới: Sử dụng thẻ script type="py" -->
+    <script type="py">
+        # Dùng lệnh display() thay cho print() để text hiển thị đẹp hơn trên nền web
+        display("🎉 Chúc mừng! Dòng chữ này thực sự được in ra bằng Python!")
+    </script>
     
   </body>
 </html>
